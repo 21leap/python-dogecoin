@@ -20,6 +20,15 @@ This package allows performing commands such as listing the current balance and 
 ```bash
 $ pip install python-dogecoin
 ```
+### Quick
+
+```bash
+$ sudo apt-get install python3-venv
+$ python3.8 -m venv python-dogecoin
+$ source python-dogecoin/bin/activate
+$ pip install --upgrade pip
+$ pip install python-dogecoin
+```
 
 ### Usage
 
@@ -39,46 +48,11 @@ print(result)
 
 For other examples and code snippets [check documentation](https://python-dogecoin.readthedocs.io/en/latest/).
 
-### Development
-
-[pyenv](https://github.com/pyenv/pyenv) is used to easily create virtual environment for the development. Use [pyenv-installer](https://github.com/pyenv/pyenv-installer) to quickly setup it locally.
-
-```bash
-$ pyenv virtualenv 3.8.1 python-dogecoin
-$ pyenv activate python-dogecoin
-$ pip install --upgrade pip
-$ pip install -e .
-```
-
-Formatting your code after adding changes
-
-```bash
-$ pyenv activate python-dogecoin
-$ pip install -e ".[dev]"
-$ make format
-```
-
-### Testing
-
-To launch basic set of unittests
-
-```bash
-$ pyenv activate python-dogecoin
-$ pip install -e ".[test]"
-$ pytest -sv tests/
-$ flake8 .  # lint code to spot any other errors
-```
-
-To launch integration tests you need [Dogecoin server](https://github.com/dogecoin/dogecoin) to be up and running and configured to use `testnet`.
-
-```bash
-$ pytest -sv tests/ --run-integration
-```
 
 ### Much donations
 
-If you love [Dogecoin](https://dogecoin.com/) and want to support the project you can send coins to this wallet
+If you love [Dogecoin](https://dogecoin.com/)
 
 `D6PiEmGcfbvH8P9pHFpuxqPbCUUpwK7f4g`
 
-:dog2: :rocket: :full_moon:
+:dog2: :rocket:
