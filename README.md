@@ -79,6 +79,6 @@ $ pytest -sv tests/ --run-integration
 
 If you love [Dogecoin](https://dogecoin.com/) and want to support the project you can send coins to this wallet
 
-`D7DA74qzZUyh9cctCxWovPTEovUSjGzL2S`
+`D6PiEmGcfbvH8P9pHFpuxqPbCUUpwK7f4g`
 
 :dog2: :rocket: :full_moon:
